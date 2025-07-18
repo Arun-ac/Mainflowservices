@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Electric Bike Promo</title>
+  <style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: #fff;
+  color: #333;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+}
+
+.logo {
+  color: #f45a5a;
+  font-weight: bold;
+}
+
+nav a {
+  margin-left: 2rem;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem;
+  background: linear-gradient(to left, #f45a5a 50%, #fff 50%);
+}
+
+.left {
+  width: 50%;
+  padding-right: 2rem;
+}
+
+.left h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.left h1 strong {
+  color: #f45a5a;
+}
+
+.left p {
+  font-size: 1rem;
+  color: #777;
+  margin-bottom: 1.5rem;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+}
+
+.btn {
+  background-color: #f45a5a;
+  color: #fff;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  margin-right: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.learn-more {
+  color: #f45a5a;
+  text-decoration: none;
+}
+
+.right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.main-bike {
+  max-width: 100%;
+  height: auto;
+  z-index: 1;
+}
+
+.specs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 2rem;
+  width: 100%;
+  color: #fff;
+}
+
+.specs div {
+  text-align: center;
+  flex: 1 1 45%;
+  margin-bottom: 1rem;
+}
+
+.specs small {
+  display: block;
+  font-size: 0.8rem;
+  color: #ccc;
+}
+
+.specs h2 {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+</style>
+</head>
+<body>
+  <header>
+    <div class="logo">REAL AJ</div>
+    <nav>
+      <a href="#">Bikes</a>
+      <a href="#">About Us</a>
+      <a href="#">Service & Support</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="left">
+      <h1><span>Take Over the Streets,</span><br><strong>Silently.</strong></h1>
+      <p>Join the revolution to make a difference for your life and the environment.</p>
+      <div class="buttons">
+        <button class="btn">Book a Test Ride</button>
+        <a href="#" class="learn-more">Learn More</a>
+      </div>
+    </div>
+    <div class="right">
+      <img src="bike.png" alt="Electric Bike" class="main-bike" />
+      <div class="specs">
+        <div>
+          <small>BATTERY RANGE</small>
+          <h2>70 Km</h2>
+        </div>
+        <div>
+          <small>ASSIST SPEED</small>
+          <h2>25 Kmph</h2>
+        </div>
+        <div>
+          <small>CHARGING TIME</small>
+          <h2>3.5 Hours</h2>
+        </div>
+        <div>
+          <small>WEIGHT</small>
+          <h2>16.9 Kg</h2>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>
