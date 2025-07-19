@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Secure Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="login-container">
+    <h2>Welcome – Secure Login</h2>
+
+    <form action="login.php" method="POST">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+
+      <div class="buttons">
+        <button type="submit">Login</button>
+        <button type="reset">Clear</button>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
