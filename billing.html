@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Billing System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Billing</h1>
+        <div class="section">
+            <h2>Customer Details</h2>
+            <input type="text" placeholder="Name">
+            <input type="text" placeholder="Email">
+            <input type="text" placeholder="Address">
+        </div>
+        <div class="section">
+            <h2>Product Details</h2>
+            <input type="text" placeholder="ID">
+            <input type="text" placeholder="Product Name">
+            <input type="text" placeholder="Rate">
+            <input type="text" placeholder="Quantity">
+            <input type="text" placeholder="Description">
+            <button class="add-button">+ ADD</button>
+        </div>
+        <div class="details-table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Description</th>
+                        <th>Rate</th>
+                        <th>Quantity</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Rows will go here -->
+                </tbody>
+            </table>
+        </div>
+        <div class="section calc">
+            <h2>Calculation Details</h2>
+            <input type="text" placeholder="Total Amount">
+            <input type="text" placeholder="Paid Amount">
+            <input type="text" placeholder="Returned Amount">
+        </div>
+        <div class="buttons">
+            <button class="save-button">💾 Save</button>
+            <button class="reset-button">🔁 Reset</button>
+            <button class="close-button">❌ Close</button>
+        </div>
+    </div>
+</body>
+</html>
